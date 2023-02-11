@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- made to look good on all devices ^^^^ -->
-    <meta name="keywords" content="HTML, CSS" />
-    <meta name="description" content="..." />
     <title>Joes super cool website</title>
-    <style>
-      em {
-        color: rebeccapurple;
-        font-style: normal;
-      }
-
-      strong {
-        color: red;
-      }
-    </style>
   </head>
+
   <body>
-    <p>Joes <strong>website</strong></p>
-    <h1>Heading 1 - should only be one</h1>
-    <h2>BUT</h2>
-    <p>hello</p>
-    <h2>You can have multiple lower headings</h2>
-    <p>hehe</p>
-    <a href="about.html">
-      <img src="cat.jpg" alt="cat image here" />
-    </a>
+    <header>
+      <div class="container">
+        <h2 class="logo">Joe's Website</h2>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mailto:jhteates@gmail.com">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="text">
+      <p>
+        Hello, Sean I know you keep spying on my website so I've made a couple
+        changes just for you!
+      </p>
+    </div>
   </body>
 </html>
