@@ -85,3 +85,7 @@ nav a:hover::before{
     color: rgb(0, 0, 0);
     text-align: center;
 }
+.text p{
+    padding-left: 3%;
+    padding-right: 3%;
+}
