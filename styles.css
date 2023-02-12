@@ -24,8 +24,8 @@ header::after {
 
 .logo {
     float: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 nav {
@@ -43,7 +43,7 @@ nav li{
     margin-left: 50px;
     padding-top: 25px;
     position: relative;
-    padding-bottom: 25px;
+    padding-bottom: 0.5%;
 }
 nav a{
     color:  rgb(71, 71, 71);
