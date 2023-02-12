@@ -48,7 +48,7 @@ nav li{
 nav a{
     color:  rgb(71, 71, 71);
     text-decoration: none;
-    text-transform:uppercase;
+    text-transform:none;
     font-size: 17px;
     
 }
