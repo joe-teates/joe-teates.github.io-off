@@ -4,6 +4,7 @@ body {
     background: rgb(44, 44, 44);
     font-family: monospace;
     font-weight: 300;
+    text-transform: lowercase;
 }
 
 .container{
@@ -105,6 +106,10 @@ nav a:hover::before{
     padding-left: 3%;
     padding-right: 3%;
 }
+.headingthing {
+    text-align: left;
+    padding-left: 30px;
+  }
 .events {
     float: right;
     background-color: rgb(255, 255, 255);
