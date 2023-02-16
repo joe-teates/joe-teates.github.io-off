@@ -83,49 +83,50 @@ nav a:hover::before{
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
-    
-    border: 2px solid background-color;
     border-radius: 10px;
-    padding: 10px;
 
-    color: rgb(0, 0, 0);
-    text-align: center;
-    float: left;
-}
-.home-text {
-    background-color: rgb(255, 255, 255);
-    margin-top: 2%;
-    margin-left: 5%;
-    /* margin-right: 5%; */
-    width: 60%;
-    
-    border: 2px solid background-color;
-    border-radius: 10px;
-    padding: 10px;
-
-    color: rgb(0, 0, 0);
+    color: "black";
     text-align: center;
     float: left;
 }
 .text p{
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .headingthing {
     text-align: left;
     padding-left: 30px;
   }
+.home-text {
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    width: 60%;
+    border-radius: 10px;    
+
+    color: "black";
+    text-align: none;
+}
+.home-text p{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
 .events {
     float: right;
     background-color: rgb(255, 255, 255);
     margin-top: 2%;
-    /* margin-left: 5%; */
+    margin-left: 2.5%;
     margin-right: 5%;
     width: 25%;
-    border: 2px solid background-color;
     border-radius: 10px;
-    padding: 10px;
 
-    color: rgb(0, 0, 0);
-    text-align: center;
+    color: "black";
+    text-align: none;
+}
+.events p {
+    padding-left: 40px;
+    padding-right: 40px;
 }
