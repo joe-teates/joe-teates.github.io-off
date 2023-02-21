@@ -24,7 +24,24 @@
     </header>
 
     <div class="text">
+      <script>
+        count = 0;
+        function funcClick() {
+          count++;
+          var t = document.getElementById("counter");
+          t.innerHTML = "cats clicked: " + count;
+        }
+      </script>
+
       <p>no way... you clicked the cat</p>
+      <button
+        type="button"
+        onclick="funcClick()"
+        href="easteregg.html?color=red"
+      >
+        <img src="cat.jpg" alt="cat" width="40" href="easteregg.html" />
+      </button>
+      <p id="counter">cat clicker</p>
     </div>
   </body>
 </html>
